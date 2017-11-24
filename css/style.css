@@ -1,0 +1,534 @@
+﻿body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e8e8e8;
+    color: #32353b;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.icon-bar{
+   background-color: #32353b;
+ }
+
+.menu{
+    color: #32353b;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.menu:hover{
+    color: red;
+}
+
+.autoSkola{
+    padding-top: 0px;
+}
+
+#logo{
+    height: 60px;
+}
+
+.navbar-nav > li > a:hover{
+    background-color: transparent;
+}
+
+footer{
+    background-color: #cecece;
+	color: #32353b;
+	text-align: center;
+	font-size: 15px;
+    position: relative;
+}
+
+.bolid {
+    float: right;
+    height: 300px;
+    width: 720px;
+    padding-right: 10px;
+}
+
+#cont{
+    text-align: center;
+    font-size: 40px;
+    background-color: #cecece;
+    padding-bottom: 50px;
+}
+
+.polinja{
+    font-family: Arial;
+    font-size: 15px;
+    text-decoration: solid;
+    font-weight: bolder;
+}
+
+#contact-form{
+    height: 650px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.contactElements{
+    background-color: #cecece;
+    height: 550px;
+    text-align: center;
+}
+
+#kontaktMobile{
+    padding-bottom: 50px;
+    padding-top: 40px;
+    margin-bottom: 90px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 60px; 
+    text-align: center;
+    background-color: #cecece;
+    border-radius: 25px;
+}
+
+#save{
+    margin-right: 220px;
+}
+
+textarea{
+    resize: initial;
+    width: 300px;
+    border-style: double;
+}
+
+.mission-statement{
+    font-family: Candara;
+    font-size: 100px;
+    font-weight: 800;
+    color: #101127;
+}
+
+#info{
+    background-color: #cecece;
+    height: 300px;
+    border-top: solid #aca9a9;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.ikoni{
+    width: 30px;
+    height: 30px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.email{
+    display: inline-block;
+	left:150px;
+}
+
+.ulica {
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+}
+
+#map{
+     width: 250px;
+     height: 200px;
+     float: right;
+     margin-bottom: 10px;
+     margin-right: 20px;
+     border: solid #32353b;
+}
+
+.slikiKategorii{
+    width: 95%;
+    height: 400px;
+    border: solid black;
+    cursor: pointer;
+}
+
+.vozila:hover{
+    transform: scale(1.02);
+}
+
+p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.navbar-collapse, .navbar-header{
+    margin-top: 10px;
+}
+
+.navbar{
+    height: 90px;
+}
+
+#sliderImage{
+    border: solid black;
+    width: 400px;
+    height: 450px;
+    margin-top: 2%;
+}
+
+#sliderDiv{
+    text-align: center;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sliderNaslov{
+    background-color: black;
+    color: gold;
+    margin-top: 0px;
+    width: 400px;
+    border: solid black;
+}
+
+.gridNaslov{
+    width: 95%;
+    background-color: black;
+    color: gold;
+    margin-bottom: 30px;
+}
+
+.leftArrow{
+    text-align: right;
+    padding-top: 200px;
+}
+
+.rightArrow{
+    padding-top: 200px;
+}
+
+.naslovMobile{
+    font-size: 60px; 
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: #cecece;
+    border-radius: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.selekcija{
+    text-align: center;
+    width: 150px;
+}
+
+select {
+    display: block;
+    margin: 0 auto;
+}
+
+.kategorije{
+    width: 100%; 
+    text-align: center;
+    height: 520px;
+}
+
+.gumbOdabir{
+    padding-top: 60px;
+}
+
+#formaKategorija{
+	height: 300px;
+}
+
+.tim{
+    width: 99%;
+    height: 99%;
+    display: inline;
+    border: solid black;
+	margin-top: 20px;
+}
+
+.timNaslov{
+    width: 99%;
+    background-color: black;
+    color: gold;
+    margin-top: 0px;
+    border: solid black;
+	text-align: center;
+}
+
+#ponudaNaslov{
+    font-size: 60px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: #cecece;
+    border-radius: 25px;
+    margin-left: 35px;
+    margin-right: 15px;
+}
+
+.indexObuka{
+    text-align: center;
+    color: #32353b;
+    background-color: #cecece;
+    height: 99%;
+    padding-top: 20px;
+	border-radius: 25px;
+	width: 99%;
+}
+
+.obukaGumbIndex{
+    background-color: #1b044a;
+    color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.obukaGumbIndex:hover{
+    color: gold;
+}
+
+.sparkNaslovna{
+    width: 100px;
+    height: 130px;
+}
+
+.crnSpark{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.crnSpark:hover{
+    transform: scaleY(1.02);
+}
+
+.kategorii{
+    font-size: 50px;
+    margin-top: 10px;
+    width: 30%;
+}
+
+#ponuda{
+    padding: 5%;
+    font-size: 18px;
+    height: 500px;
+    background-color: #cecece;
+    margin: 5%;
+    margin-bottom: 15px;
+    margin-top: 3%;
+    border-radius: 25px;
+}
+
+.podtocke{
+    padding-top: 10px;
+}
+
+#mapContact{
+    height: 444px;
+    width: 99%;
+    margin-right: 50px;
+    border: none;
+}
+
+#cover{
+    background-image: url('../images/cover.jpg');
+    background-size: 100% 100%;
+    height: 700px;
+    width: 100%;
+}
+
+.navigBar{
+    background-color: #d7d3d3;
+    border-bottom: solid #aca9a9;
+    margin-bottom: 40px;
+}
+
+.team{
+    border-radius: 25px;
+    background-color: #cecece;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 15px;
+}
+
+#mainNavBar{
+    background-color: inherit;
+}
+
+.selected{
+    color: cornflowerblue;
+}
+
+.homeNaslov{
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 100px;
+    font-size: 60px; 
+    text-align: center;
+    border-radius: 25px;
+    color: #101127;
+    font-weight: 900;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 59px;
+  left: 18px;
+  right: 10px;
+  background-color: black;
+  overflow: hidden;
+  width: 87.5%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.text {
+  color: gold;
+  font-size: 16px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.vozila:hover .overlay{
+    height: 15%;
+}
+
+#myCarousel{
+    margin-top: 30px;
+}
+
+.carousel-inner > .item > img{
+    width: 100%;
+    height: 550px;
+}
+
+.teorijaTekst{
+	font-size: 24px;
+	height: 220px;
+}
+
+.columnKategorije{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.ponudaCena{
+	font-size: 20px;
+	height: 110%;
+}
+
+#ponudaMotor, #ponudaBus, #ponudaAuto{
+	width: 400px;
+	height: 300px;
+	padding-left: 30px;
+	display: none;
+}
+
+#slikaMotor, #slikaBus, #slikaaAuto{
+	display: none;
+}
+
+hr{
+	border-top: 1px solid grey;
+	width: 70%;
+}
+
+#katA, #katB, #katD{
+	text-align: left;
+}
+
+.lista{
+	margin-left: 80px;
+} 
+
+@media screen and (max-width: 360px) {
+    .slikiKategorii, .gridNaslov, .crnSpark {
+        width: 99%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #ponuda {
+        height: 1250px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 550px) {
+    #ponuda {
+        height: 900px;
+    }
+}
+
+
+@media screen and (min-width: 550px) and (max-width: 800px) {
+    #ponuda {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .homeNavBar{
+        background-color: #cecece;
+        border-bottom: solid #aca9a9;
+    }
+	.ulica{
+		text-align: left;
+	}
+	.email{
+		left: 0;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.naslovMobile, #kontaktMobile, #ponudaNaslov{
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 1199px) and (min-width: 980px) {
+    .tim {
+        width: 200px;
+        height: 250px;
+    }
+    .timNaslov {
+        width: 200px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 400px){
+	form{
+		width: 99%;
+		margin: 0 auto; 
+	}
+	form textarea, form input{
+		width: 99%; 
+	}
+	.teorijaTekst{
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 1000px){
+	.col-md-4{
+		padding-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+    .overlay, .text{
+        display: none;
+    }
+    .kategorii {
+        font-size: 40px;
+    }
+}

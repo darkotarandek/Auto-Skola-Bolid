@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Авто Школа Болид</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+
+</head>
+<body>
+
+    <nav class="navbar navigBar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand autoSkola"><img id="logo" src="images/logo.png" /></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="mainNavBar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="about.html" class="menu">ЗА НАС</a></li>
+                <li><a href="team.html" class="menu">НАШИОТ ТИМ</a></li>
+                <li><a href="price.html" class="menu selected">ЦЕНОВНИК</a></li>
+                <li><a href="vozila.html" class="menu">ВОЗИЛА</a></li>
+                <li><a href="contact.php" class="menu">КОНТАКТ</a></li>
+                <li><a class="menu" style="padding-top: 10px; height: 50px;" target="_blank" href="https://www.facebook.com/bolidplus"><img src="images/facebook.png" /></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row kategorije">
+        <h3 id="ponudaNaslov" class="visible-md visible-sm visible-xs">НАШАТА ПОНУДА</h3>
+        <div id="formaKategorija" class="col-md-6">
+            <form>
+                <div class="form-group">
+                    <label class="control-label">Одбери категорија:</label>
+                    <select class="form-control selekcija" name="kategorija">
+                        <option value="katA">А - Мотор</option>
+                        <option value="katB">Б - Автомобил</option>
+                        <option value="katD">Д - Автобус</option>
+                    </select>
+                </div>
+                <div class="form-group gumbOdabir">
+                    <button id="gumbSelectKat" class="btn btn-primary" name="button" type="button">ОДБЕРИ</button>
+                </div>
+            </form>
+			<div id="slikaMotor" class="visible-lg visible-md">
+				<img id="ponudaMotor" src="images/motorcycle.png" />
+			</div>
+			<div id="slikaAuto" class="visible-lg visible-md" >
+				<img id="ponudaAuto" src="images/car.png"/>
+			</div>
+			<div id="slikaBus" class="visible-lg visible-md" >
+				<img id="ponudaBus" src="images/bus.png"/>
+			</div>
+        </div>
+        <div class="col-md-6 ponudaCena">
+            <div id="katA" style="display: none;">
+			<ul style="list-style-type:disc">
+				<li class="lista">Лекарско уверение: 1500 ден.</li> 
+                <li class="lista">Пробен тест: 500 ден. *</li>
+				<li class="lista">Обука: 12200 ден.</li>
+				<li class="lista">Прва помош: 1200 ден. *</li>
+				<li class="lista">Изнајмување на мотор: 2500 ден.</li>
+				<li class="lista">Полагање (теоретски и практичен дел) : 4190 ден.</li>
+			</ul>
+				<hr>
+				<h1 style="text-align: center;">Вкупно: 22090 ден.</h1>
+				<br>
+				<div class="lista">* - Во случај кандидатот да има положена Б категорија, не е должен
+					  да полага пробен тест и прва помош.
+				</div>
+            </div>
+            <div id="katB" style="display: none;">
+			<ul style="list-style-type:disc">
+				<li class="lista">Лекарско уверение: 1500 ден.</li>
+                <li class="lista">Пробен тест: 500 ден.</li>
+				<li class="lista">Обука: 21000 ден.</li>
+				<li class="lista">Прва помош: 1200 ден.</li>
+				<li class="lista">Тестови: 2230 ден.</li>
+                <li class="lista">Полигон: 3050 ден.</li>
+				<li class="lista">Градско возење: 3050 ден.</li>
+			</ul>
+				<hr>
+				<br>
+				<h1 style="text-align: center;">Вкупно: 32530 ден.</h1>
+            </div>
+            <div id="katD" style="display: none;">
+			<ul style="list-style-type:disc">
+				<li class="lista">Лекарско уверение: 2000 ден.</li>
+                <li class="lista">Пробен тест: 500 ден. *</li>
+				<li class="lista">Обука: 30000 ден.</li>
+				<li class="lista">Прва помош: 1200 ден. *</li>
+				<li class="lista">Изнајмување на автобус: 6000 ден.</li>
+				<li class="lista">Тестови: 2420 ден.</li>
+                <li class="lista">Полигон: 1670 ден.</li>
+				<li class="lista">Градско возење: 1670 ден.</li>
+			</ul>
+				<hr>
+				<h2 style="text-align: center;">Вкупно: 45460 ден.</h2>
+				<br>
+				<div class="lista">* - Во случај кандидатот да има положена Б категорија, не е должен
+					  да полага пробен тест и прва помош.
+				</div>
+            </div>
+        </div>
+    </div>    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-3.2.1.min.js"></script>
+    <script src="Scripts/script.js"></script>
+
+</body>
+</html>
